@@ -1,0 +1,7 @@
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\obj\Debug\output_coordinates.csprojAssemblyReference.cache
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\obj\Debug\output_coordinates.csproj.CoreCompileInputs.cache
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\bin\Debug\output_coordinates.exe.config
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\bin\Debug\output_coordinates.exe
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\bin\Debug\output_coordinates.pdb
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\obj\Debug\output_coordinates.exe
+C:\Users\NIKBARALE\source\repos\output_coordinates\output_coordinates\obj\Debug\output_coordinates.pdb
