@@ -1,0 +1,7 @@
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\bin\Debug\FLYER.exe.config
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\bin\Debug\FLYER.exe
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\bin\Debug\FLYER.pdb
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\obj\Debug\FLYER.csprojAssemblyReference.cache
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\obj\Debug\FLYER.csproj.CoreCompileInputs.cache
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\obj\Debug\FLYER.exe
+C:\Users\NIKBARALE\source\repos\FLYER\FLYER\obj\Debug\FLYER.pdb

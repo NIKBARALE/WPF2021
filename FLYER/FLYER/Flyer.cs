@@ -6,7 +6,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace nikbarale.graph 
+namespace nikbarale.graph
 {
     class setup_page : Window
     {
@@ -17,12 +17,12 @@ namespace nikbarale.graph
             app.Run(new setup_page());
         }
 
-        // Internal enumeration to refer to the  paper sides.         
+
         enum Side
         {
             Left, Right, Top, Bottom
         }
-        // Four TextBox controls for numeric input.         
+
         TextBox[] txtbox = new TextBox[4];
         Label[] lbl = new Label[4];
         Button btnOk;
@@ -76,22 +76,22 @@ namespace nikbarale.graph
         }
 
         public setup_page()
-        {              // Standard settings for dialog boxes.              
+        {
             Title = "Page Setup";
             ShowInTaskbar = true;
             WindowStyle = WindowStyle.ToolWindow;
             WindowStartupLocation = WindowStartupLocation.CenterOwner;
             SizeToContent = SizeToContent.WidthAndHeight;
-            ResizeMode = ResizeMode.CanResize;              // Make StackPanel content of Window.              
+            ResizeMode = ResizeMode.CanResize;
             StackPanel stack = new StackPanel();
-            Content = stack;              // Make GroupBox a child of StackPanel.              
+            Content = stack;
             GroupBox grpbox = new GroupBox();
             grpbox.Header = "setup";
             grpbox.Margin = new Thickness(12);
-            stack.Children.Add(grpbox);              // Make Grid the content of the GroupBox.              
+            stack.Children.Add(grpbox);
             Grid grid = new Grid();
             grid.Margin = new Thickness(6);
-            grpbox.Content = grid;              // Two rows and four columns.              
+            grpbox.Content = grid;
             for (int i = 0; i < 2; i++)
             {
                 RowDefinition rowdef = new RowDefinition();
@@ -239,7 +239,7 @@ namespace nikbarale.graph
     }
     class Print_page : Window
     {
-        public Print_page(double time,double a, double v, double f)
+        public Print_page(double time, double a, double v, double f)
         {
 
             Title = "Print Graphic";
@@ -260,7 +260,7 @@ namespace nikbarale.graph
             double t = 0;
             for (int i = 0; i < fly.size; i++)
             {
-                
+
                 double x = flyer.function_for_flyer_x(t, a, v, 0);
                 double y = flyer.function_for_flyer_y(t, a, v, 0, 0);
                 fly.fillcoord(i, t, x, y);
@@ -269,16 +269,15 @@ namespace nikbarale.graph
             for (int i = 1; i < fly.size; i++)
             {
                 Line line = new Line();
-                line.X1 = fly.x[i-1];
-                line.Y1 = fly.y[i-1];
-                line.X2 = fly.x[i ];
-                line.Y2 = fly.y[i ];
+                line.X1 = fly.x[i - 1];
+                line.Y1 = fly.y[i - 1];
+                line.X2 = fly.x[i];
+                line.Y2 = fly.y[i];
                 line.Stroke = Brushes.Black;
                 myCanvas.Children.Add(line);
             }
         }
     }
 }
-    
-     
- 
+
+
