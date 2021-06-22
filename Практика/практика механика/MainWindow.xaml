@@ -1,0 +1,213 @@
+﻿<Window x:Class="практика_механика.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:практика_механика"
+        mc:Ignorable="d"
+        x:Name="window"  Title="Tvorim 4to to lutoe" Height="900" Width="1600" Background="White">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+
+        </Grid.RowDefinitions>
+
+        <Border x:Name="regionAB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="16" Grid.RowSpan="27"   CornerRadius="25" Background="LightGray" Margin="5,5,5,10">
+
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+                    <RowDefinition Height="45*"></RowDefinition>
+
+
+
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Content="Участок АВ:"         Grid.Column="9"  Grid.ColumnSpan="8"  Grid.Row="0"  Grid.RowSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" FontWeight="Bold" Margin="9,0,7,0" Width="97"/>
+                <Label Content="Масса тела:"         Grid.Column="1"  Grid.ColumnSpan="7"  Grid.Row="2"  Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="90" />
+                <Label Content="Начальная скорость:" Grid.Column="1"  Grid.ColumnSpan="11" Grid.Row="4"  Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="147" />
+                <Label Content="Движущая сила:"      Grid.Column="1"  Grid.ColumnSpan="8"  Grid.Row="6"  Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="114" />
+                <Label Content="Коэффициент μ:"       Grid.Column="1"  Grid.ColumnSpan="9"  Grid.Row="8"  Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="119" Margin="0,10" />
+                <Label Content="Коэффициент f:"       Grid.Column="1"  Grid.ColumnSpan="8"  Grid.Row="10" Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="114" Margin="0,9" />
+                <Label Content="Высота:"             Grid.Column="1"  Grid.ColumnSpan="5"  Grid.Row="12" Grid.RowSpan="1" HorizontalAlignment="Left"   VerticalAlignment="Center"  FontSize="14" FontStyle="Italic" Width="64" />
+
+                <TextBox x:Name="body_mass"          Grid.Column="15"  Grid.Row="2"  Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+                <TextBox x:Name="initial_speed"      Grid.Column="15"  Grid.Row="4"  Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+                <TextBox x:Name="driving_force"      Grid.Column="15"  Grid.Row="6"  Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+                <TextBox x:Name="coefficient_μ"      Grid.Column="15"  Grid.Row="8"  Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+                <TextBox x:Name="coefficient_f"      Grid.Column="15"  Grid.Row="10" Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+                <TextBox x:Name="height"             Grid.Column="15"  Grid.Row="12" Grid.RowSpan="1" BorderBrush="LightGray" MaxLength="10" MaxLines="10" Background="White" FontSize="14" FontStyle="Italic" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="10" Height="48"  />
+
+
+            </Grid>
+
+        </Border>
+
+        <Border Grid.Row="1" Grid.RowSpan="30" Grid.Column="18" Grid.ColumnSpan="47"  CornerRadius="25" Background="LightGray" Margin="10,0,5,0" Height="804" VerticalAlignment="Top">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="800"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1100"/>
+                </Grid.ColumnDefinitions>
+                <Canvas x:Name="canvas" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="16,10,0,10" Height="781" Width="1085" RenderTransformOrigin="0.49,0.554">
+                    <Polyline x:Name="plineAB" Stroke="Green" StrokeThickness="4" StrokeEndLineCap="Round" StrokeStartLineCap="Round"  />
+                    <Polyline x:Name="plineBC" Stroke="Fuchsia" StrokeThickness="4" StrokeEndLineCap="Round" StrokeStartLineCap="Round" ></Polyline>
+                    <Polyline x:Name="plineCE" Stroke="Blue" StrokeThickness="4" StrokeEndLineCap="Round" StrokeStartLineCap="Round"></Polyline>
+                </Canvas>
+
+            </Grid>
+
+        </Border>
+
+
+        <Border Grid.Row="28" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="16"   CornerRadius="25"  Background="Red" Margin="5">
+
+            <Button x:Name="buttonStart"  Content="Start" FontWeight="Bold" FontSize="45" Click="ButtonStart" Background="Red"  VerticalAlignment="Center"  Margin="22,0,19,0" RenderTransformOrigin="0.5,0.434" Height="73" />
+
+        </Border>
+    </Grid>
+</Window>
