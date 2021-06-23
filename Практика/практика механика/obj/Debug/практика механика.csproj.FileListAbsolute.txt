@@ -13,3 +13,18 @@ C:\Users\NIKBARALE\source\repos\практика механика\obj\Debug\пр
 C:\Users\NIKBARALE\source\repos\практика механика\obj\Debug\практика механика.csproj.CoreCompileInputs.cache
 C:\Users\NIKBARALE\source\repos\практика механика\obj\Debug\практика механика.exe
 C:\Users\NIKBARALE\source\repos\практика механика\obj\Debug\практика механика.pdb
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\bin\Debug\практика механика.exe.config
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\bin\Debug\практика механика.exe
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\bin\Debug\практика механика.pdb
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.csprojAssemblyReference.cache
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\MainWindow.g.cs
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\App.g.cs
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика_MarkupCompile.cache
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика_MarkupCompile.lref
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\MainWindow.baml
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.g.resources
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика_механика.Properties.Resources.resources
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.csproj.GenerateResource.cache
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.csproj.CoreCompileInputs.cache
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.exe
+C:\Users\NIKBARALE\source\repos\Практика\практика механика\obj\Debug\практика механика.pdb

@@ -76,7 +76,7 @@ namespace практика_механика
         {
             C2 = (_driving_force + _body_mass * G * Math.Sin(A)-_initial_speed)*_coefficient_μ;
             C3 = ((_driving_force + _body_mass * G * Math.Sin(A) - (C2 * Math.Exp(-(_coefficient_μ * 3 / _body_mass))))/_coefficient_μ);
-            C5 = ((15 / _body_mass) * 4 * 4) - (_coefficient_f * G * time) + C3;
+            C5 = ((15 / _body_mass) * 4 * 4) - (_coefficient_f * G * 4) + C3;
         }
         private void Canvascoff()
         {
@@ -111,7 +111,7 @@ namespace практика_механика
         private void CE()
         {
             xCE = coffWidth * C5 * (time-4);
-            yCE = coffWidth *( _height - (G * (time - 4) * (time - 4)) / 2.0);
+            yCE = coffWidth *( _height - ((G * (time - 4) * (time - 4)) / 2.0));
             plineCE.Points.Add(new Point( flipXAB + xBC+ +xCE, flipYAB -yCE+ (coffWidth*_height)));
             if (yCE < 0)
                 timer.Stop();
